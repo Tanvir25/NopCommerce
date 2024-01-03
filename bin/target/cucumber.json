@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "validate-nop-commerce-login;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2710751000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open URL",
+            "match": {
+              "location": "login.user_open_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter valid email and password",
+            "match": {
+              "location": "login.user_enter_valid_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login I complete action",
+            "match": {
+              "location": "login.user_click_login_I_complete_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to see the dashboard page",
+            "match": {
+              "location": "login.user_should_able_to_see_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Nop Commerce Login",
+    "description": "",
+    "id": "validate-nop-commerce-login",
+    "keyword": "Feature",
+    "uri": "Login_NoP.feature"
+  }
+]
